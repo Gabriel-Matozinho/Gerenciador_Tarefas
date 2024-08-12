@@ -4,7 +4,7 @@ import PySimpleGUI as sg
 
 
 def Criar_janela_inicial():
-    sg.theme('DarkBlue4')
+    sg.theme('Dracule')
     linha = [
         [sg.Checkbox(''), sg.Input('')]
     ]
@@ -13,7 +13,7 @@ def Criar_janela_inicial():
         [sg.Button('Nova Tarefa'), sg.Button('Resetar')]
     ]
 
-    return sg.Window('Todo List', layout=layout, finalize=True)
+    return sg.Window('To do List', layout=layout, finalize=True)
 
 # criar a janela
 
